@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #043139;
+      padding: 40px;
+      color: #fff;
+    }
+
+    .contact-form {
+      max-width: 500px;
+      margin: 100px;
+      background:white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      color:black
+    }
+
+    .contact-form h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .contact-form button {
+      background: #3498db;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 5px;
+      width: 100%;
+    }
+
+    .contact-form button:hover {
+        box-shadow: 0 0 5px cyan,
+    0 0 25px cyan,  0 0 50px cyan,
+    0 0 200px cyan,  0 0 200px cyan
+    }
+    .contact-adress{
+        display: inline;
+        align-items: center;
+        justify-content: center;
+        padding: 250px;
+
+    }
+    h1 span{
+      color:aqua
+    }
+  </style>
+</head>
+<body  >
+    <h1 style="font-size: 30px">My<span>Details</span></h1>
+    <div class="contact-adress" >
+        <div class="contact-add-head">
+            <h3><u>Bhargavi</u></h3>
+            <p> ==>  uI/uX designer</p>
+        </div>
+        <div class="contact-add-info">
+            <div class="single-contact-add-info">
+                <h3><u>phone</u></h3>
+                <p>  ==> 8179416896</p>
+            </div>
+            <div class="single-contact-add-info">
+                <h3><u>email</u></h3>
+                <p>  ==> marisettibhargavi54@gmail.com</p>
+            </div>
+            
+        </div>
+<div class="contact-form">
+
+  <h2>Contact Us</h2>
+  <form action="marisettibhargavi54@gmail.com" method="post" enctype="text/plain">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <input type="text" name="subject" placeholder="Subject">
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</div>
+
+</body>
+</html>
